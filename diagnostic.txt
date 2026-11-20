@@ -1,0 +1,5 @@
+direct_reshape shape= (2, 49, 3072) max_abs= 3.8119730949401855 mean_abs= 1.0422987937927246 matches= False
+reordered_axes shape= (2, 49, 3072) max_abs= 0.0 mean_abs= 0.0 matches= True
+first_mismatch= (np.int64(0), np.int64(0), np.int64(32))
+wrong[0,0,32]= 1.3755959272384644 right[0,0,32]= 1.273406982421875
+input[0,0,0,32]= 1.3755959272384644 input[0,0,1,0]= 1.273406982421875
